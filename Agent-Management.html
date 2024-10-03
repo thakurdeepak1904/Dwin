@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agent Management - Core Commercial Real Estate</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav class="navbar">
+            <div class="navbar-container container">
+                <input type="checkbox" name="" id="">
+                <div class="hamburger-lines">
+                    <span class="line line1"></span>
+                    <span class="line line2"></span>
+                    <span class="line line3"></span>
+                </div>
+                <h1 class="logo"><a href="index.html"><img src="./images/logo.png" alt="logo" width="80px"></a></h1>
+                <ul class="menu-items">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="properties.html">Properties</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+                <div class="login">
+                    <a href="login.html"><button type="submit" class="signin">Sign in</button></a>
+                    <a href="register.html"><button type="submit" class="join">Join</button></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Agent Management Section -->
+    <section class="agent-management">
+        <h2 style="text-align: center;">Agent Management</h2>
+
+        <div class="management-content">
+            <div class="add-agent-form card">
+                <h3><i class="fas fa-user-plus"></i> Add New Agent</h3>
+                <form action="#" method="post">
+                    <label for="agent-name">Agent Name:</label>
+                    <input type="text" id="agent-name" name="agent-name" placeholder="Enter agent name" required>
+
+                    <label for="agent-email">Email:</label>
+                    <input type="email" id="agent-email" name="agent-email" placeholder="Enter agent email" required>
+
+                    <label for="agent-phone">Phone:</label>
+                    <input type="text" id="agent-phone" name="agent-phone" placeholder="Enter agent phone number" required>
+
+                    <input type="submit" value="Add Agent">
+                </form>
+            </div>
+
+            <div class="existing-agents existing-users card">
+                <h3><i class="fas fa-users"></i> Existing Agents</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Agent Name</th>
+                            <th>Email</th>
+                            <th>Phone</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Dalle</td>
+                            <td>Dalle@hotmail.com</td>
+                            <td>0234567890</td>
+                            <td>
+                                <a href="#"><i class="fas fa-edit"></i> Edit</a>
+                                <a href="#"><i class="fas fa-trash-alt"></i> Delete</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>pratikke</td>
+                            <td>Pratike@gmail.com</td>
+                            <td>0987654321</td>
+                            <td>
+                                <a href="#"><i class="fas fa-edit"></i> Edit</a>
+                                <a href="#"><i class="fas fa-trash-alt"></i> Delete</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-container">
+            <!-- Group Members Section -->
+            <div class="group-members-section">
+                <h3>Group Members and Contributions:</h3>
+                <ul class="group-members">
+                    <li>Deepak Thakur (Student ID: K220458) - Frontend</li>
+                    <li>Saugat Tripathi(Student ID: K22) - Database</li>
+                    <li>Rajan Dallakoti(Student ID: K22) - Backend</li>
+                    <li>Pratik Tulladhar(Student ID: K22) - Backend</li>
+
+                </ul>
+            </div>
+
+            <!-- Contact Information Section -->
+            <div class="contact-section">
+                <h3>Contact Information</h3>
+                <p>Address: 123 Real Estate Ave, South Morang, Melbourne, VIC 3752</p>
+                <p>Phone: (03) 1234 5678</p>
+                <p>Email: info@corecommercial.com</p>
+            </div>
+
+            <!-- Social Media Section -->
+            <div class="social-media-section">
+                <h3>Follow Us</h3>
+                <ul class="social-links">
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p>&copy; 2024 Core Commercial Real Estate. All Rights Reserved.</p>
+        <p>This website was created for the final assessment for DWIN309 at Kent Institute Australia.</p>
+    </footer>
+</body>
+
+</html>
